@@ -15,7 +15,15 @@ Docker image for HTTPie: a CLI, cURL-like tool for humans.
 
 ### Runtime
 
+Returns the `--help` usage without any additional parameters:
+
     $ docker run --rm httpie
+
+See the [upstream documentation](https://github.com/jkbrzt/httpie#usage) for examples.
+
+A simple `GET` request:
+
+    $ docker run --rm httpie http://icanhazip.com/
 
 License and Authors
 -------------------
